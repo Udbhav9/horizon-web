@@ -1,0 +1,1239 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+
+<head>
+  <!-- <link rel="icon" href="./horizon-logo.ico" type="image/png"/> -->
+  <link rel="icon" href="./horizon-logo.ico" type="image/x-icon" />
+
+  <!-- AOS ANIMATIONS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <style>
+    [data-aos] {
+      transition-property: transform, opacity;
+    }
+  </style>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horizon BVCOE - Debating Society</title>
+  <meta name="description"
+    content="Horizon BVCOE - Where Voices Rise, Ideas Collide, and Thought Finds Its True Horizon.">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="events.css">
+  <link rel="stylesheet" href="family.css">
+  <link rel="stylesheet" href="mentor.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="landingpage.css">
+  <link rel="stylesheet" href="aboutus.css">
+  <link rel="stylesheet" href="animations.css">
+  <!-- <link rel="stylesheet" href="upcomingevent.css"> -->
+  <link rel="stylesheet" href="Event_Calendar/event_calendar.css">
+
+  <!-- External Libraries -->
+  <!-- Feather Icons -->
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+</head>
+
+<body>
+  <!-- Main Container with Gradient Background -->
+  <div class="min-h-screen bg-gradient">
+    <!-- Header Section -->
+    <header class="custom-header">
+      <nav class="custom-nav container">
+        <!-- Logo Area -->
+        <div class="logo-area">
+          <img id="horizon_logo2" src="horizon_logo2.jpg" alt="Horizon BVCOE Logo"
+            style="width: 45px; height: 45px; margin-right: 0.5rem;">
+          <span class="logo-text">HORIZON BVCOE</span>
+        </div>
+
+        <!-- Desktop Navigation Links -->
+        <div class="nav-links desktop">
+          <a href="#home" class="nav-item">Home</a>
+          <a href="#about-us" class="nav-item">About Us</a>
+          <a href="#family" class="nav-item">Family</a>
+          <!-- <a href="#upcoming-event-section" class="nav-item">Upcoming Events</a> -->
+          <a href="#event-section" class="nav-item">Events</a>
+          <a href="./Our Legacy/our-legacy.html" class="nav-item">Our Legacy</a>
+        </div>
+
+        <!-- CTA Button -->
+        <div class="desktop cta-button">
+          <button class="btn-cta" id="contact-us">Contact Us</button>
+        </div>
+
+        <!-- Mobile Menu Toggle -->
+        <div class="menu-toggle" id="menu-toggle">
+          <i data-feather="menu"></i>
+        </div>
+      </nav>
+
+      <!-- Mobile Menu (Hidden by default) -->
+      <div class="mobile-menu hidden" id="mobile-menu">
+        <a href="#home" class="nav-item">Home</a>
+        <a href="#about-us" class="nav-item">About Us</a>
+        <a href="#family" class="nav-item">Family</a>
+        <a href="#event-section" class="nav-item">Events</a>
+        <a href="./Our Legacy/our-legacy.html" class="nav-item">Our Legacy</a>
+        <button class="btn-cta full-width" id="contact-us">Contact Us</button>
+      </div>
+    </header>
+
+    <!-- Main Content Sections -->
+    <main class="main-content">
+      <!-- Hero Section with Animated Background -->
+      <section class="hero-section" id="home">
+        <!-- Animated Background Elements -->
+        <div class="background-container">
+          <!-- SVG Curved Lines -->
+          <svg class="svg-container" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="grad1" x1="1" y1="0" x2="0" y2="0">
+                <stop offset="0%" stop-color="#22d3ee" stop-opacity="0" />
+                <stop offset="50%" stop-color="#22d3ee" stop-opacity="0.5" />
+                <stop offset="100%" stop-color="#22d3ee" stop-opacity="0" />
+              </linearGradient>
+              <linearGradient id="grad2" x1="1" y1="0" x2="0" y2="0">
+                <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0" />
+                <stop offset="50%" stop-color="#8b5cf6" stop-opacity="0.5" />
+                <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0" />
+              </linearGradient>
+            </defs>
+            <path id="path1" class="svg-path path-cyan" d="M 100 100 Q 300 0 500 100 T 900 100" />
+            <path id="path2" class="svg-path path-violet" d="M 0 200 Q 200 100 400 200 T 800 200" />
+            <path id="path3" class="svg-path path-cyan" d="M 100 600 Q 300 500 500 600 T 900 600" />
+          </svg>
+
+          <!-- Straight Lines -->
+          <div class="lines-container">
+            <div class="animated-line line-cyan" style="top: 15%"></div>
+            <div class="animated-line line-violet" style="top: 25%"></div>
+            <div class="animated-line line-cyan" style="top: 35%"></div>
+          </div>
+
+          <!-- Glowing Orbs -->
+          <div class="orb orb-cyan"></div>
+          <div class="orb orb-violet"></div>
+        </div>
+
+        <!-- Hero Content -->
+        <div class="content container text-center">
+          <div class="logo-container">
+            <div class="society-logo">
+              <div class="logo-glow"></div>
+              <div class="logo-background">
+                <img src="horizon-logo.jpg" alt="Horizon Society Logo" class="sparkles-icon">
+              </div>
+            </div>
+          </div>
+          <h1 class="hero-title">HORIZON BVCOE</h1>
+          <p class="hero-subtitle">"Horizon — Where Voices Rise, Ideas Collide, and Thought Finds Its True Horizon."</p>
+        </div>
+      </section>
+
+      <!-- About Us Section -->
+      <div class="about-content" id="about-us">
+        <div class="main-section">
+          <div class="content-left" data-aos="fade-up">
+            <p id="about_us_para" data-aos="fade-up">ABOUT US</p>
+            <p class="section-description" data-aos="fade-up">
+              Horizon isn't just a society — it's a movement of minds, a space where voices rise, ideas collide, and
+              thought finds its true horizon. Here, words aren't mere sounds; they are forces that challenge
+              conventions, spark conversations, and inspire change. At Horizon, we don't debate to dominate — we speak
+              to understand, we listen to grow, and we think to transform. From the power of the spoken word to the
+              strength of silent reflections, Horizon becomes the canvas for expression, intellect, and empathy. It is a
+              community of thoughtful rebels — curious enough to question, bold enough to speak, and wise enough to
+              listen. More than anything, Horizon is where the art of reason meets the heart of expression — a sanctuary
+              where every perspective matters, and every voice is heard.
+            </p>
+          </div>
+
+          <div class="content-right" data-aos="fade-up" data-aos-delay="200" data-aos-easing="ease-out">
+            <div class="image-container">
+              <img src="horizon_family_images/group_photo.jpeg" class="section-image" alt="Horizon Group Photo">
+              <div class="photo-caption">Group Photo </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Family Section -->
+      <section class="statistics-section" id="family">
+        <div class="container">
+          <h2 class="section-title">HORIZON FAMILY</h2>
+
+          <!-- Mentor Testimonial -->
+          <div class="testimonial-outer">
+            <div class="wide-testimonial-card dark-theme" id="faculty_card">
+              <div class="wide-image">
+                <img src="horizon_family_images/dr_sumit_chawla.png" alt="Dr. Sumit Chawla">
+              </div>
+              <div class="wide-content">
+                <h3>Dr. Sumit Chawla</h3>
+                <p class="designation">Faculty Mentor, Horizon</p>
+                <p class="description">
+                  A guiding force behind Horizon, Dr. Sumit Chawla brings unwavering support, insightful mentorship,
+                  and a wealth of experience to the team. With his dynamic presence and approachable nature, He plays a
+                  pivotal role in nurturing creativity, discipline, and collaboration among students. His dedication to
+                  fostering a vibrant, learning-driven environment truly embodies the spirit of Horizon.
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+
+          <!-- Team Tabs Section -->
+          <!-- tab buttons -->
+          <div class="card">
+            <div class="tabs">
+              <button class="tab-btn active" data-tab="core-team">Core</button>
+              <button class="tab-btn" data-tab="heads">Heads</button>
+              <button class="tab-btn" data-tab="execoms">Team</button>
+            </div>
+
+            <!-- Core Team Tab Content -->
+            <div class="tab-content active" id="core-team">
+              <div class="search-container">
+                <input type="text" class="search-input" placeholder="Search team members...">
+                <button class="search-button">
+                  <i data-feather="search" class="search-icon"></i>
+                </button>
+                <div class="search-suggestions"></div>
+              </div>
+              <div class="testimonial-container">
+                <div class="testimonial-content">
+                  <h2 class="testimonial-heading">Core Team</h2>
+                  <div class="testimonial-grid">
+                    <!-- President -->
+                    <div class="testimonial-card" data-member="udbhav">
+                      <div class="testimonial-avatar">
+                        <img src="./horizon_family_images/udbhav.webp" alt="udbhav">
+                      </div>
+                      <div class="testimonial-details">
+                        <h3>Udbhav Mathur</h3>
+                        <p>President</p>
+                      </div>
+                      <button class="view-profile-btn">
+                        <i class="arrow_right_img" data-feather="arrow-right"></i>
+                      </button>
+                    </div>
+
+                    <!--  Vice President -->
+                    <div class="testimonial-card" data-member="dev_dogra">
+                      <div class="testimonial-avatar">
+                        <img src="./horizon_family_images/dev_dogra.webp" alt="dev_dogra">
+                      </div>
+                      <div class="testimonial-details">
+                        <h3>Dev Dogra</h3>
+                        <p>Vice President</p>
+                        <!-- <p>Treasurer</p> -->
+                      </div>
+                      <button class="view-profile-btn">
+                        <i class="arrow_right_img" data-feather="arrow-right"></i>
+                      </button>
+                    </div>
+
+                    <!--///////////// -->
+                    <!-- <div class="testimonial-card" data-member="riya">
+                    <div class="testimonial-avatar">
+                      <img src="./horizon_family_images/riya.webp" alt="riya">
+                    </div>
+                    <div class="testimonial-details">
+                      <h3>Riya</h3>
+                      <p>Vice President</p>
+                    </div>
+                    <button class="view-profile-btn">
+                        <i class="arrow_right_img" data-feather="arrow-right"></i>
+                    </button>
+                  </div> -->
+
+
+
+                    <!-- General Secretary 1 -->
+                    <div class="testimonial-card" data-member="shiv">
+                      <div class="testimonial-avatar">
+                        <img src="./horizon_family_images/shiv.webp" alt="shiv">
+                      </div>
+                      <div class="testimonial-details">
+                        <h3>Shiv Arora</h3>
+                        <p>General Secretary</p>
+                      </div>
+                      <button class="view-profile-btn">
+                        <i class="arrow_right_img" data-feather="arrow-right"></i>
+                      </button>
+                    </div>
+
+                    <!-- General Secretary 2 -->
+                    <div class="testimonial-card" data-member="ananya_priya">
+                      <div class="testimonial-avatar">
+                        <img src="./horizon_family_images/ananya_priya.webp" alt="ananya_priya">
+                      </div>
+                      <div class="testimonial-details">
+                        <h3>Ananya Priya</h3>
+                        <p>Joint Secretary</p>
+                      </div>
+                      <button class="view-profile-btn">
+                        <i class="arrow_right_img" data-feather="arrow-right"></i>
+                      </button>
+                    </div>
+
+                    <!-- General Secretary 2 -->
+                    <div class="testimonial-card" data-member="shreya_sharma">
+                      <div class="testimonial-avatar">
+                        <img src="./horizon_family_images/shreya_sharma.webp" alt="shreya_sharma">
+                      </div>
+                      <div class="testimonial-details">
+                        <h3>Shreya Sharma</h3>
+                        <p>Joint Secretary</p>
+                      </div>
+                      <button class="view-profile-btn">
+                        <i class="arrow_right_img" data-feather="arrow-right"></i>
+                      </button>
+                    </div>
+
+
+
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <!-- Scroll Button and Additional Team Section -->
+            <div class="scroll-button-container">
+              <button class="button" id="expandSectionBtn">
+                <span class="text">Meet the whole team</span>
+                <div class="icon">
+                  <svg>
+                    <use xlink:href="#arrow-right"></use>
+                  </svg>
+                </div>
+              </button>
+            </div>
+
+            <!-- Add SVG symbol definition -->
+            <svg style="display: none">
+              <symbol id="arrow-right" viewBox="0 0 20 10">
+                <path d="M14.84 0l-1.08 1.06 3.3 3.2H0v1.49h17.05l-3.3 3.2L14.84 10 20 5l-5.16-5z"></path>
+              </symbol>
+            </svg>
+
+            <div class="additional-section hidden" id="additionalSection">
+              <div class="testimonial-container">
+                <div class="testimonial-content">
+                  <h2 class="testimonial-heading">Extended Team</h2>
+                  <div class="testimonial-grid">
+                    <!-- Add your additional team members here -->
+                    <!-- <div class="testimonial-card">
+                      <div class="testimonial-avatar">
+                        <img src="./horizon_family_images/member1.png" alt="Member 1">
+                      </div>
+                      <div class="testimonial-details">
+                        <h3>Member 1</h3>
+                        <p>Position</p>
+                      </div>
+                    </div> -->
+                    <!-- More cards can be added here -->
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Department Heads Tab Content -->
+            <div class="tab-content" id="heads">
+              <div class="testimonial-container">
+                <div class="testimonial-content">
+                  <h2 class="testimonial-heading">Department Heads</h2>
+                  <div class="testimonial-grid">
+
+                    <!-- ps Heads -->
+                    <div class="testimonial-card" data-member="riya">
+                      <div class="testimonial-avatar">
+                        <img src="./horizon_family_images/riya.webp" alt="riya">
+                      </div>
+                      <div class="testimonial-details">
+                        <h3>Riya Mehdiratta</h3>
+                        <p>Public Speaking</p>
+                      </div>
+                    </div>
+                    <div class="testimonial-card" data-member="krishna">
+                      <div class="testimonial-avatar">
+                        <img src="./horizon_family_images/krishna_bhatia.png" alt="krishna">
+                      </div>
+                      <div class="testimonial-details">
+                        <h3>Krishna Bhatia</h3>
+                        <p>Public Speaking</p>
+                      </div>
+                    </div>
+
+                    <!-- rna Heads -->
+
+                    <div class="testimonial-card" data-member="pavni">
+                      <div class="testimonial-avatar">
+                        <img src="./horizon_family_images/pavni.webp" alt="pavni">
+                      </div>
+                      <div class="testimonial-details">
+                        <h3>Pavni Gupta</h3>
+                        <p>Research & Analysis</p>
+                      </div>
+                    </div>
+                    <div class="testimonial-card" data-member="bhavya_gupta">
+                      <div class="testimonial-avatar">
+                        <img src="./horizon_family_images/bhavya_gupta.webp" alt="bhavya_gupta">
+                      </div>
+                      <div class="testimonial-details">
+                        <h3>Bhavya Gupta</h3>
+                        <p>Research & Analysis</p>
+                      </div>
+                    </div>
+
+
+                    <!-- Social Media Heads -->
+                    <div class="testimonial-card" data-member="Shivangi">
+                      <div class="testimonial-avatar">
+                        <img src="./horizon_family_images/shivangi.webp" alt="Shivangi">
+                      </div>
+                      <div class="testimonial-details">
+                        <h3>Shivangi Jha</h3>
+                        <p>Social Media & Publicity</p>
+                      </div>
+                    </div>
+                    <div class="testimonial-card" data-member="utkarsh">
+                      <div class="testimonial-avatar">
+                        <img src="./horizon_family_images/utkarsh.png" alt="utkarsh">
+                      </div>
+                      <div class="testimonial-details">
+                        <h3>Utkarsh Mishra</h3>
+                        <p>Social Media & Publicity</p>
+                      </div>
+                    </div>
+
+                    <!-- em Heads -->
+                    <div class="testimonial-card" data-member="sanyam">
+                      <div class="testimonial-avatar">
+                        <img src="./horizon_family_images/sanyam.jpeg" alt="sanyam">
+                      </div>
+                      <div class="testimonial-details">
+                        <h3>sanyam Sharma</h3>
+                        <p>Event Management</p>
+                      </div>
+                    </div>
+                    <div class="testimonial-card" data-member="vivek">
+                      <div class="testimonial-avatar">
+                        <img src="./horizon_family_images/dushyant.webp" alt="vivek">
+                      </div>
+                      <div class="testimonial-details">
+                        <h3>Vivek Kumar</h3>
+                        <p>Event Management</p>
+                      </div>
+                    </div>
+
+
+                    <!-- design Heads -->
+                    <div class="testimonial-card" data-member="Siddhant">
+                      <div class="testimonial-avatar">
+                        <img src="./horizon_family_images/siddhant.webp" alt="Siddhant">
+                      </div>
+                      <div class="testimonial-details">
+                        <h3>Siddhant Arya</h3>
+                        <p>Design</p>
+                      </div>
+                    </div>
+                    <div class="testimonial-card" data-member="Yash">
+                      <div class="testimonial-avatar">
+                        <img src="./horizon_family_images/yash_kumar.webp" alt="Yash">
+                      </div>
+                      <div class="testimonial-details">
+                        <h3>Yash Kumar</h3>
+                        <p>Design</p>
+                      </div>
+                    </div>
+                    <div class="testimonial-card" data-member="sahil">
+                      <div class="testimonial-avatar">
+                        <img src="./horizon_family_images/yash_nagar.webp" alt="sahil">
+                      </div>
+                      <div class="testimonial-details">
+                        <h3>Sahil Arora</h3>
+                        <p>Design</p>
+                      </div>
+                    </div>
+
+                    <!-- spon Heads -->
+                    <div class="testimonial-card" data-member="Tanvi">
+                      <div class="testimonial-avatar">
+                        <img src="./horizon_family_images/tanvi.webp" alt="Tanvi">
+                      </div>
+                      <div class="testimonial-details">
+                        <h3>Tanvi Malik</h3>
+                        <p>Sponsorship</p>
+                      </div>
+                    </div>
+
+
+                    <!-- ve Heads -->
+                    <div class="testimonial-card" data-member="aditya_pandey">
+                      <div class="testimonial-avatar">
+                        <img src="./horizon_family_images/aditya_pandey.webp" alt="aditya_pandey">
+                      </div>
+                      <div class="testimonial-details">
+                        <h3>Aditya Pandey</h3>
+                        <p>Video Editing</p>
+                      </div>
+                    </div>
+
+                    <div class="testimonial-card" data-member="Jatin">
+                      <div class="testimonial-avatar">
+                        <img src="./horizon_family_images/krishna.webp" alt="Jatin">
+                      </div>
+                      <div class="testimonial-details">
+                        <h3>Jatin Chauhan</h3>
+                        <p>Video Editing</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Executive Team Tab Content -->
+            <div class="tab-content" id="execoms">
+              <div class="search-container">
+                <input type="text" class="search-input" placeholder="Search team members...">
+                <button class="search-button">
+                  <i data-feather="search" class="search-icon"></i>
+                </button>
+                <div class="search-suggestions"></div>
+              </div>
+              <div class="member-list-container">
+
+                <!-- Event Management -->
+                <div class="department">
+                  <div class="department-header">
+                    <i data-feather="calendar" class="department-icon"></i>
+                    <h3>Event Management & P&D</h3>
+                  </div>
+                  <div class="department-content">
+                    <div class="team-heads">
+                      <span class="label">Heads:</span>
+                      <span class="members">
+                        <span>Dushyant Dahima</span>
+                        <span>Shiv Arora</span>
+                      </span>
+                    </div>
+                    <div class="team-executives">
+                      <span class="label">Executives:</span>
+                      <div class="name-grid">
+                        <span>Abhijeet</span>
+                        <span>Tanishq Gaur</span>
+                        <span>Kamlesh Patel</span>
+                        <span>Aryan Chhoker</span>
+                        <span>Mehul Duggal</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Research & Analysis -->
+                <div class="department">
+                  <div class="department-header">
+                    <i data-feather="book-open" class="department-icon"></i>
+                    <h3>Research & Analysis</h3>
+                  </div>
+                  <div class="department-content">
+                    <div class="team-heads">
+                      <span class="label">Heads:</span>
+                      <span class="members">
+                        <span>Pavni Gupta</span>
+                        <span>Bhavya Gupta</span>
+                      </span>
+                    </div>
+                    <div class="team-executives">
+                      <span class="label">Executives:</span>
+                      <div class="name-grid">
+                        <span>Samvid</span>
+                        <span>Aditya Rawat</span>
+                        <span>Divyanshu Chaudhary</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Social Media -->
+                <div class="department">
+                  <div class="department-header">
+                    <i data-feather="share-2" class="department-icon"></i>
+                    <h3>Social Media</h3>
+                  </div>
+                  <div class="department-content">
+                    <div class="team-heads">
+                      <span class="label">Heads:</span>
+                      <span class="members">
+                        <span>Anushka Prakash</span>
+                        <span>Dev Dogra</span>
+                      </span>
+                    </div>
+                    <div class="team-executives">
+                      <span class="label">Executives:</span>
+                      <div class="name-grid">
+                        <span>Vikhyat Bansal</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Design -->
+                <div class="department">
+                  <div class="department-header">
+                    <i data-feather="pen-tool" class="department-icon"></i>
+                    <h3>Design</h3>
+                  </div>
+                  <div class="department-content">
+                    <div class="team-heads">
+                      <span class="label">Heads:</span>
+                      <span class="members">
+                        <span>Yash Kumar</span>
+                        <span>Siddhant Arya</span>
+                      </span>
+                    </div>
+                    <div class="team-executives">
+                      <span class="label">Executives:</span>
+                      <div class="name-grid">
+                        <span>Piyush Kumar</span>
+                        <span>Chhavi Gupta</span>
+                        <span>Umang Ratra</span>
+                        <span>Siddhant Arya</span>
+                        <span>Sameer Yadav</span>
+                        <span>Lipakshi Juneja</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Video Editing -->
+                <div class="department">
+                  <div class="department-header">
+                    <i data-feather="video" class="department-icon"></i>
+                    <h3>Video Editing</h3>
+                  </div>
+                  <div class="department-content">
+                    <div class="team-heads">
+                      <span class="label">Heads:</span>
+                      <span class="members">
+                        <span>Aditya Pandey</span>
+                      </span>
+                    </div>
+                    <div class="team-executives">
+                      <span class="label">Executives:</span>
+                      <div class="name-grid">
+                        <span>Jatin</span>
+                        <span>Saksham Chandela</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Sponsorship -->
+                <div class="department">
+                  <div class="department-header">
+                    <i data-feather="dollar-sign" class="department-icon"></i>
+                    <h3>Sponsorship</h3>
+                  </div>
+                  <div class="department-content">
+                    <div class="team-heads">
+                      <span class="label">Heads:</span>
+                      <span class="members">
+                        <span>Aahana Verma</span>
+                        <span>Tanvi Malik</span>
+                      </span>
+                    </div>
+                    <div class="team-executives">
+                      <span class="label">Executives:</span>
+                      <div class="name-grid">
+                        <span>Lalit Goswami</span>
+                        <span>Piyush</span>
+                        <span>karamveer</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Public Speaking -->
+                <div class="department">
+                  <div class="department-header">
+                    <i data-feather="mic" class="department-icon"></i>
+                    <h3>Public Speaking</h3>
+                  </div>
+                  <div class="department-content">
+                    <div class="team-heads">
+                      <span class="label">Heads:</span>
+                      <span class="members">
+                        <span>Ananya Priya</span>
+                        <span>Krishna Bhatia</span>
+                      </span>
+                    </div>
+                    <div class="team-executives">
+                      <span class="label">Executives:</span>
+                      <div class="name-grid">
+                        <span>Riya Mehdiratta</span>
+                        <span>Shiv Arora</span>
+                        <span>Goms</span>
+                        <span>Saurabh Kr Tiwari</span>
+                        <span>Sahil Arora</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Publicity -->
+                <div class="department">
+                  <div class="department-header">
+                    <i data-feather="volume-2" class="department-icon"></i>
+                    <h3>Publicity</h3>
+                  </div>
+                  <div class="department-content">
+                    <div class="team-heads">
+                      <span class="label">Heads:</span>
+                      <span class="members">
+                        <span>Shivangi</span>
+                        <span>Shreya Sharma</span>
+                      </span>
+                    </div>
+                    <div class="team-executives">
+                      <span class="label">Executives:</span>
+                      <div class="name-grid">
+                        <span>Vrinda Garg</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <!-- Member Modal Structure -->
+      <div class="member-modal" id="memberModal">
+        <div class="modal-content">
+          <button class="modal-close">&times;</button>
+
+          <div class="modal-header">
+            <div class="modal-image">
+              <img src="" alt="Member Image">
+              <div class="resigned-stamp" style="display: none;">
+                <span>RESIGNED</span>
+              </div>
+            </div>
+            <h2></h2>
+            <p class="position"></p>
+          </div>
+          <div class="modal-body">
+            <div class="modal-info">
+              <div class="info-item">
+                <i data-feather="book"></i>
+                <span class="branch"></span>
+              </div>
+              <div class="info-item">
+                <i data-feather="calendar"></i>
+                <span class="year"></span>
+              </div>
+            </div>
+            <div class="modal-description"></div>
+            <!-- New Role Info Section -->
+            <div class="role-info" style="display: none;">
+              <h3>Role & Responsibilities</h3>
+              <div class="role-content"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Legacy Link Section -->
+      <div class="legacy_link_wrapper">
+        <div class="legacy-link-section" data-aos="fade-up">
+          <div class="legacy-link-content">
+            <h3>Explore Our Journey</h3>
+            <p>Meet the Team of Tenure: 2024-25 </p>
+            <a href="Our Legacy/our-legacy.html" class="legacy-btn">
+              <span class="btn-text">Team 2024-25</span>
+              <i data-feather="arrow-right" class="btn-icon"></i>
+            </a>
+          </div>
+
+
+          <div class="partners-glass-container">
+            <a href="Our Legacy/our-legacy.html">
+              <!-- Top gradient overlay -->
+              <div class="gradient-overlay top-gradient"></div>
+
+              <!-- Scrolling content with your image duplicated -->
+              <div class="scrolling-content">
+                <!-- Your original image -->
+                <img src="./horizon_family_images/00allpicc.png" alt="Our Partner Companies" class="company-logos">
+
+                <!-- Duplicated image for seamless looping -->
+                <img src="./horizon_family_images/00allpicc.png" alt="Our Partner Companies" class="company-logos">
+              </div>
+
+              <!-- Bottom gradient overlay -->
+              <div class="gradient-overlay bottom-gradient"></div>
+            </a>
+          </div>
+
+
+
+
+        </div>
+      </div>
+
+      <!-- Upcoming Event Section -->
+      <!-- <section id="upcoming-event-section"> -->
+      <!-- Animated Background Elements -->
+      <!-- <div class="upcoming-event-background"> -->
+      <!-- SVG Curved Lines -->
+      <!-- <svg class="upcoming-event-svg-container" xmlns="http://www.w3.org/2000/svg"> -->
+      <!-- <defs>
+              <linearGradient id="upcoming-grad1" x1="1" y1="0" x2="0" y2="0">
+                <stop offset="0%" stop-color="#22d3ee" stop-opacity="0" />
+                <stop offset="50%" stop-color="#22d3ee" stop-opacity="0.5" />
+                <stop offset="100%" stop-color="#22d3ee" stop-opacity="0" />
+              </linearGradient>
+              <linearGradient id="upcoming-grad2" x1="1" y1="0" x2="0" y2="0">
+                <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0" />
+                <stop offset="50%" stop-color="#8b5cf6" stop-opacity="0.5" />
+                <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0" />
+              </linearGradient>
+            </defs> -->
+      <!-- <path id="upcoming-path1" class="upcoming-svg-path upcoming-path-cyan" d="M 100 100 Q 300 0 500 100 T 900 100" />
+            <path id="upcoming-path2" class="upcoming-svg-path upcoming-path-violet" d="M 0 200 Q 200 100 400 200 T 800 200" />
+            <path id="upcoming-path3" class="upcoming-svg-path upcoming-path-cyan" d="M 100 600 Q 300 500 500 600 T 900 600" />
+          </svg> -->
+
+      <!-- Straight Lines -->
+      <!-- <div class="upcoming-event-lines-container">
+            <div class="upcoming-event-animated-line upcoming-event-line-cyan" style="top: 15%"></div>
+            <div class="upcoming-event-animated-line upcoming-event-line-violet" style="top: 25%"></div>
+            <div class="upcoming-event-animated-line upcoming-event-line-cyan" style="top: 35%"></div>
+          </div> -->
+
+      <!-- Glowing Orbs -->
+      <!-- <div class="upcoming-event-orb upcoming-event-orb-cyan"></div>
+          <div class="upcoming-event-orb upcoming-event-orb-violet"></div>
+        </div> -->
+
+      <!-- Latest Events Section -->
+      <!-- <div class="latest-events-container">
+        <div class="latest-events-header">
+          <h3 class="latest-events-title">UPCOMING EVENTS</h3>
+        </div>
+
+        <div class="latest-events-slider"> -->
+      <!-- Single Event Card -->
+      <!-- <div class="event-card active">
+            <div class="event-card-content">
+              <div class="event-date">
+                <span class="day"><i data-feather="calendar"></i> <span class="typing-text">Reveal Soon</span></span>
+              </div>
+              <div class="event-info">
+                <h4 class="event-name">BVCOE MUN</h4>
+                <p class="event-description">Join us for an exciting Model United Nations conference where delegates will debate, discuss, and deliberate on pressing global issues.</p>
+                <div class="event-details">
+                  <span class="event-time"><i data-feather="clock"></i> Reveal Soon</span>
+                  <span class="event-location"><i data-feather="map-pin"></i> BVCOE Campus</span>
+                  <span class="event-prize"><i data-feather="award"></i> Prize Pool: ₹70,000</span>
+                </div>
+                <a href="0MUN_WEBSITE/bvc_mun.html" class="event-link" target="_blank">Click Here For Detailed Mun Info <i data-feather="arrow-right"></i></a>
+              </div>
+            </div>
+            <div class="event-image">
+              <img src="./bvcoe_mun2.jpg" alt="BVCOE MUN">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+      <!-- Event Section -->
+      <section id="event-section">
+        <!-- Animated Background Elements -->
+        <div class="event-background">
+          <!-- SVG Curved Lines -->
+          <svg class="event-svg-container" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="event-grad1" x1="1" y1="0" x2="0" y2="0">
+                <stop offset="0%" stop-color="#22d3ee" stop-opacity="0" />
+                <stop offset="50%" stop-color="#22d3ee" stop-opacity="0.5" />
+                <stop offset="100%" stop-color="#22d3ee" stop-opacity="0" />
+              </linearGradient>
+              <linearGradient id="event-grad2" x1="1" y1="0" x2="0" y2="0">
+                <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0" />
+                <stop offset="50%" stop-color="#8b5cf6" stop-opacity="0.5" />
+                <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0" />
+              </linearGradient>
+            </defs>
+            <path id="event-path1" class="event-svg-path event-path-cyan" d="M 100 100 Q 300 0 500 100 T 900 100" />
+            <path id="event-path2" class="event-svg-path event-path-violet" d="M 0 200 Q 200 100 400 200 T 800 200" />
+            <path id="event-path3" class="event-svg-path event-path-cyan" d="M 100 600 Q 300 500 500 600 T 900 600" />
+          </svg>
+
+          <!-- Straight Lines -->
+          <div class="event-lines-container">
+            <div class="event-animated-line event-line-cyan" style="top: 15%"></div>
+            <div class="event-animated-line event-line-violet" style="top: 25%"></div>
+            <div class="event-animated-line event-line-cyan" style="top: 35%"></div>
+          </div>
+
+          <!-- Glowing Orbs -->
+          <div class="event-orb event-orb-cyan"></div>
+          <div class="event-orb event-orb-violet"></div>
+        </div>
+
+        <h2 class="event-section-title">THROWBACK</h2>
+        <div class="event-timeline">
+          <!-- Tech Talks Event -->
+          <div class="event-timeline-item card-fade-in">
+            <div class="event-timeline-marker">
+              <div class="event-timeline-dot"></div>
+            </div>
+            <div class="event-timeline-card">
+              <div class="event-timeline-badge">2025</div>
+              <h3 class="event-timeline-title">Tech Talks</h3>
+              <p class="event-timeline-description">
+                The "Tech talk" Event happened at the BVCOE Library.
+              </p>
+              <div class="event-timeline-images-wrapper" data-aos="fade-up">
+                <div class="event-timeline-images" data-aos="fade-up">
+                  <img src="tech_talk_images/libpic1.jpg" alt="Tech Talk 1" class="image-fade-in">
+                  <img src="tech_talk_images/libpic2.jpg" alt="Tech Talk 2" class="image-fade-in">
+                  <img src="tech_talk_images/libpic3.jpg" alt="Tech Talk 3" class="image-fade-in">
+                  <img src="tech_talk_images/libpic4.jpg" alt="Tech Talk 4" class="image-fade-in">
+                  <img src="tech_talk_images/libpic5.jpg" alt="Tech Talk 5" class="image-fade-in">
+                  <img src="tech_talk_images/grouppic.jpg" alt="Tech Talk 2" class="image-fade-in">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Vimarsh Event -->
+          <div class="event-timeline-item card-fade-in">
+            <div class="event-timeline-marker">
+              <div class="event-timeline-dot"></div>
+            </div>
+            <div class="event-timeline-card">
+              <div class="event-timeline-badge">2025</div>
+              <h3 class="event-timeline-title">Vimarsh</h3>
+              <p class="event-timeline-description">
+                Online debate conducted by horizon, on the topic: "one nation one election".
+              </p>
+              <div class="event-timeline-images-wrapper" data-aos="fade-up">
+                <div class="event-timeline-images" data-aos="fade-up">
+                  <img src="vimarsh_images/1.jpg" alt="Vimarsh 1" class="image-fade-in">
+                  <img src="vimarsh_images/2.jpg" alt="Vimarsh 2" class="image-fade-in">
+                  <img src="vimarsh_images/2.jpg" alt="Vimarsh 2" class="image-fade-in">
+                  <img src="vimarsh_images/3.jpg" alt="Vimarsh 1" class="image-fade-in">
+                  <img src="vimarsh_images/4.jpg" alt="Vimarsh 1" class="image-fade-in">
+                  <img src="vimarsh_images/4.jpg" alt="Vimarsh 1" class="image-fade-in">
+                  <img src="vimarsh_images/5.jpg" alt="Vimarsh 1" class="image-fade-in">
+                  <img src="vimarsh_images/5.jpg" alt="Vimarsh 1" class="image-fade-in">
+                  <img src="vimarsh_images/6.jpg" alt="Vimarsh 1" class="image-fade-in">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <!-- Event-Calendar Section -->
+      <div class="event-calendar-container">
+        <div class="fireflies">
+          <div class="firefly"></div>
+          <div class="firefly"></div>
+          <div class="firefly"></div>
+          <div class="firefly"></div>
+          <div class="firefly"></div>
+          <div class="firefly"></div>
+          <div class="firefly"></div>
+          <div class="firefly"></div>
+          <div class="firefly"></div>
+          <div class="firefly"></div>
+          <div class="firefly"></div>
+          <div class="firefly"></div>
+          <div class="firefly"></div>
+          <div class="firefly"></div>
+          <div class="firefly"></div>
+          <div class="firefly"></div>
+          <div class="firefly"></div>
+          <div class="firefly"></div>
+          <div class="firefly"></div>
+          <div class="firefly"></div>
+          <div class="firefly"></div>
+          <div class="firefly"></div>
+          <div class="firefly"></div>
+          <div class="firefly"></div>
+          <div class="firefly"></div>
+          <div class="firefly"></div>
+          <div class="firefly"></div>
+
+        </div>
+
+        <h2 data-aos="fade-up" class="event-calendar-title">Event Calendar</h2>
+
+        <div class="calendar_mini_wrapper">
+          <!-- add event button -->
+          <!-- <button class="add-event-btn" id="addEventBtn"> -->
+          <!-- <i data-feather="plus"></i>
+          Add Event
+        </button> -->
+          <div class="calendar-container">
+            <div class="calendar" data-aos="fade-up">
+              <div class="calendar__header">
+                <div class="calendar__month-year" id="monthYearSelector">
+                  <span class="calendar__month" id="currentMonth">April</span>
+                  <span class="calendar__year" id="currentYear">2025</span>
+                  <div class="calendar__month-dropdown" id="monthDropdown">
+                    <div class="month-option" data-month="0">January</div>
+                    <div class="month-option" data-month="1">February</div>
+                    <div class="month-option" data-month="2">March</div>
+                    <div class="month-option active" data-month="3">April</div>
+                    <div class="month-option" data-month="4">May</div>
+                    <div class="month-option" data-month="5">June</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="calendar__body">
+                <!-- Calendar Days Header -->
+                <div class="calendar__days">
+                  <div>Mon</div>
+                  <div>Tue</div>
+                  <div>Wed</div>
+                  <div>Thu</div>
+                  <div>Fri</div>
+                  <div>Sat</div>
+                  <div>Sun</div>
+                </div>
+
+                <!-- Calendar Dates Grid -->
+                <div class="calendar__dates" id="calendarDates" data-aos="fade-up">
+                  <!-- Dates will be generated by JavaScript -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Event Panel (Desktop) -->
+          <div class="event-panel" data-aos="fade-up">
+            <div class="event-details_calendar" id="eventDetails">
+              <div class="event-details__placeholder" id="eventPlaceholder">
+                <div class="event-details__placeholder-icon">📅</div>
+                <div class="event-details__placeholder-text">Select a date with an event to view details</div>
+              </div>
+              <div id="eventContent" style="display: none;">
+                <!-- Event content -->
+                <h3 class="event-details__title" id="eventTitle"></h3>
+                <div class="event-details__date" id="eventDate"></div>
+                <div class="event-details__content" id="eventContentText"></div>
+
+                <!-- Event Gallery section -->
+                <div class="event-gallery">
+                  <div class="gallery-title">Event Gallery</div>
+                  <div class="gallery-images">
+                    <img src="" alt="Event image 1" class="gallery-image" id="eventImage1">
+                    <img src="" alt="Event image 2" class="gallery-image" id="eventImage2">
+                    <img src="" alt="Event image 3" class="gallery-image" id="eventImage3">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <!-- Hidden image containers for events -->
+
+          <!-- IMAGE - Core_Positions_Tenure_2025-26 -->
+          <div id="Core_Positions_Tenure_2025-26" style="display: none;">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+          </div>
+
+          <!-- IMAGE - TECH_TALKS -->
+          <div id="TECH_TALKS" style="display: none;">
+            <img src="tech_talk_images/libpic1.jpg" alt="Debate Session Image 1">
+            <img src="tech_talk_images/libpic3.jpg" alt="Debate Session Image 2">
+            <img src="tech_talk_images/libpic5.jpg" alt="Debate Session Image 3">
+          </div>
+
+          <!-- IMAGE - Debate -->
+          <div id="Debate" style="display: none;">
+            <img src="./vimarsh_images/1.jpg" alt="Debate Session Image 1">
+            <img src="./vimarsh_images/2.jpg" alt="Debate Session Image 2">
+            <img src="./vimarsh_images/4.jpg" alt="Debate Session Image 3">
+          </div>
+
+          <!-- Event Form Modal -->
+          <div class="event-form-modal" id="eventFormModal">
+            <div class="event-form-container">
+              <div class="event-form-header">
+                <h3 class="event-form-title">Add New Event</h3>
+                <button class="close-form-btn" id="closeFormBtn">&times;</button>
+              </div>
+              <form id="eventForm">
+                <div class="form-group">
+                  <label for="newEventDate" class="form-label">Date</label>
+                  <input type="date" id="newEventDate" class="form-input" required>
+                </div>
+                <div class="form-group">
+                  <label for="newEventTime" class="form-label">Time</label>
+                  <input type="time" id="newEventTime" class="form-input" required>
+                </div>
+                <div class="form-group">
+                  <label for="newEventTitle" class="form-label">Event Title</label>
+                  <input type="text" id="newEventTitle" class="form-input" placeholder="Enter event title" required>
+                </div>
+                <div class="form-group">
+                  <label for="newEventDescription" class="form-label">Description</label>
+                  <textarea id="newEventDescription" class="form-input form-textarea"
+                    placeholder="Enter event description"></textarea>
+                </div>
+                <div class="form-group">
+                  <label for="newEventLocation" class="form-label">Location</label>
+                  <input type="text" id="newEventLocation" class="form-input" placeholder="Enter location">
+                </div>
+                <button type="submit" class="form-submit-btn">Add Event</button>
+              </form>
+            </div>
+          </div>
+
+
+          <!-- Mobile Event Modal -->
+          <div class="calendar-mobile-modal" id="calendarEventModal" style="display: none;">
+            <div class="calendar-mobile-details" id="calendarMobileEventDetails">
+              <!-- Mobile event details structure -->
+              <div class="calendar-mobile-details__header">
+                <h3 class="calendar-mobile-details__title" id="calendarMobileEventTitle"></h3>
+              </div>
+              <div class="calendar-mobile-details__date" id="calendarMobileEventDate"></div>
+              <div class="calendar-mobile-details__content" id="calendarMobileEventContent"></div>
+              <div class="calendar-mobile-details__footer">
+                <button class="calendar-mobile-modal__button">Got it!</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- Footer Section -->
+      <section id="contact-section">
+        <footer class="custom-footer">
+          <div class="container">
+            <div class="footer-wrapper">
+              <div class="footer-brand">
+                <img id="horizon_logo2" src="horizon_logo2.jpg" alt="Horizon Logo">
+                <h2 class="footer-title">Horizon Society</h2>
+                <p class="footer-subtitle">Igniting Innovation. Inspiring Change.</p>
+              </div>
+
+              <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p><i data-feather="mail" class="footer-small-icon"></i> horizonbvcoe@gmail.com</p>
+                <p><i data-feather="instagram" class="footer-small-icon"></i>
+                  <a href="https://www.instagram.com/horizonbvp/?hl=en" target="_blank">@horizon.bvp</a>
+                </p>
+                <p><i data-feather="linkedin" class="footer-small-icon"></i>
+                  <a href="https://www.linkedin.com/company/horizon-bvcoe"
+                    target="_blank">https://www.linkedin.com/company/horizon-bvcoe</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="footer-bottom">
+              <p>&copy; 2026 Horizon BVCOE. All rights reserved.</p>
+            </div>
+          </div>
+        </footer>
+    </main>
+  </div>
+
+
+
+  <!-- JavaScript Files -->
+  <script src="navigation.js"></script>
+  <script src="animations.js"></script>
+  <script src="tabs.js"></script>
+  <script src="typing.js"></script>
+  <script src="text-effects.js"></script>
+  <script src="landingpage.js"></script>
+  <script src="scroll-animations.js"></script>
+  <script src="scroll-animation.js"></script>
+  <script src="member-modal.js"></script>
+  <script src="Event_Calendar/event_calendar.js"></script>
+
+  <script>
+    feather.replace();
+  </script>
+
+  <!-- AOS LIBRARY -->
+  <script>
+    // Initialize AOS (Animate On Scroll)
+    document.addEventListener('DOMContentLoaded', function () {
+      AOS.init({
+        duration: 600,
+        once: true,
+        offset: 50,           // Reduced from 120 to 50 to trigger animations earlier
+        easing: 'ease-in-out'
+      })
+
+      // Add specific settings for about us section
+      const aboutElements = document.querySelectorAll('#about-us [data-aos]');
+      aboutElements.forEach(element => {
+        element.setAttribute('data-aos-offset', '30');  // Even earlier trigger for about section
+      });
+    });
+  </script>
+
+  <!-- script for event-calendar section -->
+  <!-- Firebase SDKs -->
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+    import { getFirestore } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js";
+
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyCMKsgsvp6gNyLOaOdbWcGltuFIcP_EAtw",
+      authDomain: "eventcalendar-eeaa6.firebaseapp.com",
+      projectId: "eventcalendar-eeaa6",
+      storageBucket: "eventcalendar-eeaa6.appspot.com",
+      messagingSenderId: "913543020019",
+      appId: "1:913543020019:web:925fe28632f4abfe5f6686",
+      measurementId: "G-JKK3CG8PW6"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const db = getFirestore(app);
+
+    // Make db available globally
+    window.db = db;
+  </script>
+
+
+</body>
+
+</html>
